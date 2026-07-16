@@ -1,0 +1,20 @@
+Build a polished browser-based voxel sandbox game inspired by classic block-building survival games, using original branding, textures, icons, and interface elements.
+
+Deliver the entire project as a **single self-contained `index.html` file** — all HTML, CSS, and JavaScript inline in that one file, with no build step, no bundler, and no local asset files. Load Three.js from a CDN via an import map. The file must run correctly by simply opening it in a browser.
+
+Create a playable first-person demo with:
+
+- Procedurally generated block terrain with grass, dirt, stone, sand, water, trees, hills, and caves
+- WASD movement, mouse-look, jumping, sprinting, gravity, collision detection, and pointer lock
+- Block breaking and placement with visible targeting feedback
+- A nine-slot hotbar with selectable block types
+- Simple inventory, pause menu, settings, and responsive HUD
+- Dynamic sunlight, shadows, fog, clouds, particles, water animation, and a day-night cycle
+- Local save and load for player position and edited blocks via localStorage
+- A landing screen with Play, Continue, Settings, and About options
+
+Visual direction: bright, stylized voxel diorama graphics with crisp cubic geometry, dense handcrafted details, soft cinematic lighting, ambient occlusion, clean shadows, colorful terrain, and a polished miniature-world feel.
+
+All textures must be generated procedurally in code (canvas-drawn or shader-based) — no external image files. Optimize rendering with instanced or merged chunk meshes, chunk-based terrain generation, frustum culling, and greedy face culling of hidden blocks. Support desktop browsers and show a clear message on unsupported mobile devices.
+
+Organize the single file with clearly commented sections (config, noise/worldgen, chunk meshing, player controller, world interaction, UI, save system, main loop). Include controls and a brief overview in the About screen. No missing implementation stubs — everything must be functional. Think thoroughly and plan before coding. Don't forget its only a single index.html file, and output that file to me. Make it perfect no bugs top quality identical or even better to real Minecraft.
